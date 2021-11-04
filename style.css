@@ -1,0 +1,99 @@
+body{
+    background-color: gray;
+}
+h1{
+    margin: auto;
+    width: 260px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color:bisque;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16pt; 
+    box-shadow: 1px 1px 15px 0.5px rgba(0,0,0,0.18);
+}
+
+p{  
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14pt;
+    color: #fff;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+#jogadordavez{
+    margin: auto;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+
+}
+.tabuleiro {
+    margin: auto;
+    margin-top: 80px;
+    height: 306px;
+    width: 306px;
+    box-shadow: 1px 1px 15px 0.5px rgba(0,0,0,0.18);
+}
+.espaco {
+    height: 100px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    border-right: solid 1px white;
+    border-bottom: solid 1px white;
+}
+#c1{
+    border-bottom: none;
+}
+#c2{
+    border-bottom: none;
+}
+#c3{
+    border-bottom: none;
+    border-right: none;
+}
+#a3{
+    border-right: none;
+}
+#b3{
+    border-right: none;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    padding: 17px;
+    
+}
+.result {
+    margin: auto;
+    height: 50px;
+    width: 306px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 16pt;
+}
+
+#novajogada {
+    margin: auto;
+    height: 50px;
+    width: 306px;
+
+}
+
+#botao {
+    margin: auto;
+    height: 50px;
+    width: 306px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    color:dimgrey;
+}
+#botao:hover{
+    background-color: aquamarine;
+}
